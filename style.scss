@@ -1,2 +1,42 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+  }
+  html {
+    font-size: 10pt;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-size-adjust: 100%;
+  };
+ 
+body{
+    background-color: rgb(219, 212, 212);
+    margin: 0;
+    
+};
+.nav-list{
+    display: none;
+}
+.main{
+    background-image:url("/assets/images/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+//   background-size: cover;
+};
+nav{
+display: flex;
+justify-content: space-between
+
+}
+.main {
+    h1{
+        color: white;
+        border: solid 1px white;
+
+    }
+    
+}
