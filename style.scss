@@ -371,6 +371,10 @@ h2  {
        
     }
   }
+  .cta-2{
+    display: none;
+  
+  }
     
   
 
@@ -673,11 +677,13 @@ h2{
 
 .img-grid{
   display: grid;
+  margin-bottom: 20px;
   grid-template:
   
     'url-1 url-4 url-4 url-4  '
     'url-5 url-6 url-7 url-8  ';    
-  grid-gap:20px
+  grid-gap:20px,
+
 
 }
 .h2-our{
@@ -686,14 +692,12 @@ h2{
 
 }
 .cta-1{
-  width: 15%;
-  font-family: 'Josefin', sans-serif;
-  padding: 5px 0;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  display: none;
   
 
 }
+
+
 .container-f{
   display: flex;
   flex-direction: row;
@@ -721,6 +725,15 @@ h2{
 .nav-list-footer{
   display: flex;
   justify-content: space-between;
+}
+.cta-2{
+  display: block;
+  width: 15%;
+  font-family: 'Josefin', sans-serif;
+  padding: 5px 0;
+  margin-top: 20px;
+  margin-bottom: 60px;
+
 }
   
 
