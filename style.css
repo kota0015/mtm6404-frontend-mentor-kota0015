@@ -304,13 +304,13 @@ a {
     align-items: center;
     width: 60%;
     height: 100%;
-    padding-left: 35px;
     border: solid 2px rgb(250, 252, 248);
   }
   .dt-wrapper h1 {
     border: 0px;
     font-size: 5em;
     font-weight: lighter;
+    margin: 35px;
     padding: 0;
     letter-spacing: 0.1em;
   }
